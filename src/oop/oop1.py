@@ -29,9 +29,21 @@ class GroundVehicle(Vehicle):
     pass
 
 
-class Car(Vehicle):
+class Car(GroundVehicle):
     pass
 
 
-class Motorcycle(Vehicle):
+class Motorcycle(GroundVehicle):
+    pass
+
+
+class FlightVehicle(Vehicle):
+    pass
+
+
+class Airplane(FlightVehicle):
+    pass
+
+
+class Starship(FlightVehicle):
     pass
