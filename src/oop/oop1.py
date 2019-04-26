@@ -17,3 +17,21 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+# base class
+
+
+class Vehicle:
+    pass
+
+
+class GroundVehicle(Vehicle):
+    pass
+
+
+class Car(Vehicle):
+    pass
+
+
+class Motorcycle(Vehicle):
+    pass
